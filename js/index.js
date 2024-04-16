@@ -5,3 +5,5 @@ document.getElementById('akanForm').addEventListener('submit'), function(event) 
 const dob = new Date(document.getElementById('dob').value)
 
 const gender = document.getElementById('gender').value
+
+
