@@ -12,3 +12,5 @@ if (dob && gender) {
     const dateOfBirth = new Date(dobInput);
     const dayOfWeek = dateOfBirth.getDay();
 }
+
+const akanNamesMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
