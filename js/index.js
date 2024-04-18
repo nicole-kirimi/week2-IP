@@ -18,8 +18,11 @@ const akanNamesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Am
 
 let akanName;
     
-    if (genderInput === 'male') {
+    if (gender === 'male') {
       akanName = akanNamesMale[dayOfWeek];
     } else {
       akanName = akanNamesFemale[dayOfWeek];
     }
+
+    const resultElement = document.getElementById('result');
+    resultElement.innerText = "You were born on " + getDayName(dayOfWeek) + ", your Akan name is " + akanName + ".";
