@@ -8,6 +8,12 @@ const dob = document.getElementById('dob').value
 const gender = document.getElementById('gender').value
 }
 
+if (!dobInput || !genderInput) {
+    alert("Please enter your date of birth and select your gender.");
+    return;
+  }
+
+
 if (dob && gender) {
     const dateOfBirth = new Date(dobInput);
     const dayOfWeek = dateOfBirth.getDay();
