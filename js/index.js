@@ -26,3 +26,8 @@ let akanName;
 
     const resultElement = document.getElementById('result');
     resultElement.innerText = "You were born on " + getDayName(dayOfWeek) + ", your Akan name is " + akanName + ".";
+
+    function getDayName(dayIndex) {
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        return daysOfWeek[dayIndex];
+      }
