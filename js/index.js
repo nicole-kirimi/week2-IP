@@ -14,4 +14,12 @@ if (dob && gender) {
 }
 
 const akanNamesMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
-const akanNamesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+const akanNamesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+
+let akanName;
+    
+    if (genderInput === 'male') {
+      akanName = akanNamesMale[dayOfWeek];
+    } else {
+      akanName = akanNamesFemale[dayOfWeek];
+    }
