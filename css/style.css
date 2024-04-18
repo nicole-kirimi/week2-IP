@@ -18,3 +18,20 @@
     color: rgb(209, 26, 26);
 
 }
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #042f5e;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+}

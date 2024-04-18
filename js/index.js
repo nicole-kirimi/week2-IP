@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function calculateAkanName() {
-const dob = document.getElementById('dob').value
-const gender = document.getElementById('gender').value
+const dobInput = document.getElementById('dob').value
+const genderInput = document.getElementById('gender').value
 }
 
 if (!dobInput || !genderInput) {
@@ -37,3 +37,4 @@ let akanName;
         const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         return daysOfWeek[dayIndex];
       }
+
