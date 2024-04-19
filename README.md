@@ -2,10 +2,11 @@
 
 ##Author: Nicole Kirimi 
 
-##Description: The languages used are: *HTML *CSS.
-This is a repository for my week -1 Independent project. 
+##Description: The languages used are: *HTML *CSS *JavaScript.
+This is a repository for my week 2 Independent project. 
 
 ##Instuctions: There is a link which you can use to acces the live view of the website. 
+
 ##This is the link: https://nicole-kirimi.github.io/week2-IP/
 
 MIT License
